@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/css/employee.css">
+ 
+    
+    <title>Misa Company</title>
+
+</head>
+<body>
+    <div class = container id ="ctn">
+      
+        <div class = "logo"> 
+             <div class = "logo1"></div>
+             <div class = "logo2"></div>
+        </div>
+
+       <div class = "sign"> 
+         <div class = "cbb" name = "combobox">
+            <select class ="cbb">
+                <option value ="1">Nhà hàng Biển Đông</option>
+                <option value = "2">Nhà hàng Biển Tây</option>
+                <option value = "3">Nhà hàng Biển Nam</option>
+                <option value = "4">Nhà hàng Biển Bắc</option>
+            </select>
+         </div>
+         <div class = "default-image">
+            <div class = "image"></div>
+            <div class = "name">Andy Nguyễn</div>
+            <div class = "choice"></div>
+         </div>
+       </div>
+       <div class = "menu">
+               
+               <div class = "menu-selected">
+                    <div class = "icon icon-general"></div>
+                    <div class = "text">Tổng quan</div>
+               </div>
+               <div class = "menu-selected">
+                    <div class = "icon icon-report"> </div>
+                    <div class = "text">Báo cáo</div>
+               </div>
+               <div class = "menu-selected">
+                    <div class = "icon icon-buy"> </div>
+                    <div class = "text">Mua hàng</div>
+               </div>
+               <div class = "menu-selected">
+                    <div class = "icon icon-list"> </div>
+                    <div class = "text">Danh mục nhân viên</div>
+               </div>
+               <div class = "menu-selected">
+                    <div class = "icon icon-system"> </div>
+                    <div class = "text">Thiết lập hệ thống</div>
+               </div>
+       </div>
+    
+        
+        <div class = "content">
+               <div class = "list">
+                   <div class = "list-text">Danh sách nhân viên</div>
+                   <div class = "list-buttn">
+                      <button  id ="list-button" class = "list-button">Thêm nhân viên</button>
+                   </div>
+               </div>
+               <div class = "search">
+                <div class = "cbb">
+                    <div class = "input_">
+                        <input class = "input" type = "text " placeholder = "Tìm kiếm theo Mã,Tên hoặc SDT">
+                    </div>
+                    <div class = "cbb-1">
+                        <select class ="department">
+                            <option value ="1">Tất cả phòng ban</option>
+                            <option value = "2">Phòng Nhân sự</option>
+                            <option value = "3">Phòng Đào Tạo</option>
+                            <option value = "4">Phòng Marketting</option>
+                            <option value = "5">Phòng Công nghệ</option>
+                         
+                        </select>
+                    </div>
+                    <div class = "cbb-2">
+                        <select class ="department">
+                            <option value ="1">Tất cả vị trí</option>
+                            <option value = "2"> Giám đốc</option>
+                            <option value = "3"> Thu ngân </option>
+                            <option value = "4">Nhân viên Marketting</option>
+                           
+                         
+                        </select>
+                    </div>
+                </div>
+                <div class = "search-icon"></div>
+            
+             </div>
+            <div class ="content_">
+            <div class = "table-container">
+                <table id ="EmployeeList">
+                    <tr>
+                        <th propValue = "EmployeeCode">Mã nhân viên</th>
+                        <th propValue = "FullName">Họ và tên </th>
+                        <th propValue = "GenderName">Giới tính</th>
+                        <th propValue = "DateOfBirth" format = "date">Ngày sinh</th>
+                        <th propValue = "PhoneNumber">Điện thoại</th>
+                        <th propValue = "Email">Email</th>
+                        <th propValue = "PositionName" format = "name">Chức vụ</th>
+                        <th propValue = "Department">Phòng ban</th>
+                        <th propValue = "WorkStatus" format = "ws">Tình trạng công việc</th>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                 
+                    <tr>
+                        <td>NV-532408</td>
+                        <td>Hồ Văn Long</td>
+                        <td>Nam</td>
+                        <td>11/08/1078</td>
+                        <td>0940458449</td>
+                        <td>long@gmail.com</td>
+                        <td>Thu ngân</td>
+                        <td>Phòng nhân sự</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+      
+                </table>
+                
+            </div>
+            <div class = "page-nevigation">
+                <div class = "text">Hiển thị 1-10/1000 sinh viên</div>
+                <div class = "nevi">
+                    <div class = "icon icon-dleft"></div>
+                    <div class = "icon icon-left"></div>
+                    <div class = "num">1</div>
+                    <div class = "num">2</div>
+                    <div class = "num">3</div>
+                    <div class = "num">4</div>
+                    <div class = "icon icon-right"></div>
+                    <div class = "icon icon-dright"></div>
+                </div>
+                <div class = "text">10 sinh viên/trang</div>
+            </div>
+            </div>
+    </div>
+
+    </div>
+    <div class = "adding-form" id = "af">
+        <div class = "form-header">
+            <div class = "header-text">THÔNG TIN NHÂN VIÊN</div>
+            <div class = "header-icon" id = "header-icon"></div>
+        </div>
+        <div class =  "form-content">
+            <div class = "content-image">
+                <div class = "content-image_"></div>
+                <div class ="content-image-text">(Vui lòng chọn ảnh có định dạng .jpg,.png)</div>
+            </div>
+
+            <div class = "form-content_">
+                <div class = "fc content-left">
+                    <div class = "left input-id>">
+                        <label>Mã nhân viên (*): <br></label>
+                        <input class = "left_ input-id" type = "text " placeholder = "NV0001">
+                    </div>
+                    <div class = " left input-date">
+                        <label>Ngày sinh(*): <br></label>
+                        <input class = "left_ input-date" type = "text " placeholder = "05/05/2001">
+                    </div>
+                    <div class = "left input-phone"> 
+                        <label>Số điện thoại(*): <br></label>
+                        <input class = "left_ input-phone" type = "text " placeholder = "0987388219">
+                    </div>
+                    <div class = "left input-position">
+                        <label>Vị trí : <br></label>
+                        <select name="combobox" class="left_ input-cbb" >
+        
+                            <option value="1">Giám đốc</option>
+                            <option value="2">Thu ngân</option>
+                            <option value="3">Nhân viên Markertting</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class = "fc content-right">
+                    <div class = "right input-name" id = "right input-name">
+                        <label>Họ và tên (*): <br></label>
+                        <input class = "right_ input-name" id ="text-name" type = "text " placeholder = "Nguyen Trung Hieu">
+                    </div>
+                    <div class = "right cbb-gender">
+                        <label>Giới tính (*): <br></label>
+                        <select name="combobox" class="right_ input-cbb" >
+        
+                            <option value="1">Nam</option>
+                            <option value="1">Nữ</option>
+                            <option value="1">Khác</option>
+                            
+                        </select>
+                    </div>
+                    <div class = "right input-email">
+                        <label>Email(*): <br></label>
+                        <input class = "right_ input-email" type = "text " placeholder = "hieu@gmail.com">
+                    </div>
+                    <div class = "right input-depart">
+                        <label>Phòng ban : <br></label>
+                        <select name="combobox" class="right_ input-cbb" >
+        
+                            <option value="1">Phòng nhân sự</option>
+                            <option value="2">Phòng đào tạo</option>
+                            <option value="3">Phòng Markertting</option>
+                            <option value="4">Phòng Công nghệ</option>
+                        </select>
+                    </div>
+                </div>
+                
+                
+               
+            
+            </div>
+        </div>
+        <div class = "form-button">
+            <button class = "form-bt cancel" id ="cancel">Hủy</button>
+            <button class = "form-bt save">Lưu</button>
+        </div>
+    </div>
+    <div class = "dialog error " id ="dialog" >
+        <div class="dialog__icon" id ="dgn" ></div>
+        <div class="dialog__content">
+            <div class = "content-icon"></div>
+            <div class = "content-text">Thông tin nhập không hợp lệ </div> 
+        </div>        
+    </div>
+
+  
+    <script  language="JavaScript" type="text/javascript" src = "/js/jquery-3.6.1.min.js"></script>
+    <script  language="JavaScript" type="text/javascript" src = "/js/employee.js"></script>
+</body>
+
+ 
+</html>

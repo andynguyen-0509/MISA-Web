@@ -1,0 +1,238 @@
+.misa{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color:#019160;
+    background-image: url("/Resource/cukcuk-logo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+.row{
+    padding:20px;  
+}
+.m-button{
+background-color: #019160; 
+border-radius: 4px; 
+size: text 13px;
+color : #ffffff;
+padding-left: 32px;
+padding-right: 52px;
+height: 40px;
+/* text-align: center; */
+border-color: #019160;
+margin-left: 40px;
+border:none;
+}
+.m-button-icon{
+    text-align: left;
+    background-image: url(/Resource/icon/add.png);
+    background-repeat: no-repeat;
+    /* padding-left: 16px; 
+    padding-right: 16px;  */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    background-position-x: 16px;
+    background-position-y: center;
+    margin-left: 10px;
+   
+}
+.m-button:hover 
+{
+    background-color: #2fbe8e;
+}
+.m-button:active{
+    background-color: #01b075;
+}
+label{
+    padding-right:10px;
+}
+.cbb{
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 4px;
+    height:40px ;
+    width : 200px; 
+    color: black;
+    font-style: normal;
+    outline:none;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.cbb:focus{
+    background-color: #01b075;
+}
+.input{
+    border-width: 2px;
+    border-color: #bbbbbb;
+    border-style: solid;
+    height:40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    outline: none;
+    margin-left: 50px;
+    width:180px;
+}
+.input:focus{
+    border-color: #019160;
+   
+}
+.toast{
+ height: 48px;
+ border-radius:  4px;
+  /* background-color: #019160;  */
+ width: 300px; 
+ line-height: 48px;
+ border-width: 2px;
+ border-style: solid;
+  border-color:#bbbbbb;
+  display:flex;
+  margin-top: 20px;
+}
+.toast__icon{
+    width: 24px;
+    height: 24px;
+     background-color: #bbbbbb; 
+    background-image: url(/Resource/icon/success.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+    /*background-position: center; */
+    /* position:absolute; */
+    /* top:50%; */
+    transform: translate(80%,45%);
+    
+}
+.toast__text{
+  padding-left: 35px;
+} 
+
+
+.toast:hover{
+    border-color: #2fbe8e;
+    font-style:oblique;
+  
+}
+
+.toast__button{
+    
+    width: 24px;
+    height: 24px;
+    background-size: 75%;
+   background-image: url(/Resource/icon/x.svg);
+   transform: translate(300%,60%);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.toast__button:hover {
+    background-color: #bbbbbb;
+   
+    border-radius: 10px;
+    cursor:pointer;
+}
+#error{
+    background-image: url(/Resource/icon/error.png);
+}
+#err{
+    transform: translate(260%,60%);
+}
+#e:hover{
+    border-color:red;
+    font-style:oblique;
+}
+#icon {
+    background-image: url(/Resource/icon/search.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 16px;
+    padding-left: 40px;
+    
+}
+.dialog{
+    position:relative;
+    border: 1px solid #dddddd;
+    width: 400px;
+    border-radius: 4px;
+    height: 200px;
+    margin-top: 10px;
+}
+.dialog__button{
+   background-image: url(/Resource/icon/x.svg);
+   background-position: center;
+   width: 20px;
+   height: 20px;
+   position:absolute;
+   right: 3px;
+   top:  2px;
+   border-radius: 4px;
+   border-color: #ffffff;
+}
+
+.dialog__header{
+    position:absolute;
+    left: 24px;
+    top: 24px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing:-0.1em;
+}
+.icon{
+    background-image: url(/Resource/icon/error.png);
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 24px;
+    
+}
+.dialog__content{
+  
+    position:absolute;
+    left:10%;
+    top:40%;
+    right:8px; 
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: -0.2em;
+    font-size: 90%;
+    
+    display:flex;
+   
+}
+.dialog__footer{
+    /* border: 1px solid #bbbbbb; */
+    position:absolute;
+    bottom:0%;
+    width:400px;
+    height: 60px;
+    background-color: #f3efef;
+}
+.option{
+    margin-left: 45%;
+    margin-top:10px;
+    border-radius: 4px;
+    border-color:#dddddd ;
+    font-family:sans-serif;
+    width:90px;
+    height: 40px;
+     background-color: #dddddd; 
+}
+.option:hover{
+    background-color: #bbbbbb;
+    color:white;
+}
+.close{
+    margin-left: 2%;
+    margin-top:10px;
+    border-radius: 4px;
+    border-color:#dddddd ;
+    font-family:sans-serif;
+    width:90px;
+    height: 40px;
+     background-color: #dddddd; 
+}
+.close:hover{
+    background-color: rgb(244, 102, 102);
+    color:white;
+}

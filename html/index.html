@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Visualizer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">  
+    <link
+    href="/Resource/font/GoogleSans-Light.otf"
+    rel="stylesheet">
+  </head>
+    <body> 
+     <div class = "misa">
+        Welcome to MISA!
+     </div>
+
+     <div class = "row">
+        <label>1. Button:   </label>
+        <button class = "m-button">
+            Thêm mới nhân viên
+        </button>
+     </div>
+
+     <div class = "row">
+        <label>2. Icon Button: </label>
+        <button class = "m-button m-button-icon"> Thêm mới nhân viên</button>
+     </div>
+
+     <div class = "row">
+        <p>3. Combobox: </p>
+        <label>  Choose gender: </label>
+        
+     <select name="combobox" class="cbb" >
+        
+        <option value="1">Nam</option>
+        <option value="1">Nữ</option>
+        <option value="1">Khác</option>
+        
+    </select>
+     </div>
+     
+     <div class = "row">
+        <label>4. Input: </label>
+        <input class = "input" type = "text " placeholder = " Enter name">
+     </div>
+       
+     <div class = "row">
+        <label>5.Toast message</label>
+        <div class = "toast">
+           <div class="toast__icon">  </div>
+           <div class="toast__text"> Thêm mới thành công  </div>        
+           <div class="toast__button">  </div>
+        </div>
+        <div class = "toast"  id = "e">
+            <div class="toast__icon" id = "error">  </div>
+            <div class="toast__text"> Thông tin không hợp lệ </div>        
+            <div class="toast__button" id="err">  </div>
+         </div>
+     </div>
+
+     <div class = "row">
+        <label>5. Input icon: </label>
+        <input class = "input" type = "text " placeholder = "Enter name" id= "icon">
+     </div>
+     <div class = "row">
+        <label>6. Confirm Dialog </label>
+        
+           <div class = "dialog">
+                <button class = "dialog__button"></button>
+                <div class = "dialog__header">Xóa bản ghi A</div>
+                <div class = "dialog__content">
+                    <div class = "icon"></div>
+
+                    <div class = "text">
+                    Bạn muốn xóa form <b>"Đăng kí thành viên" </b> không ?
+                    </div>
+            </div>
+                <div class = "dialog__footer">
+                    <button class = "option">Hủy</button>
+                    <button class = "close">Xóa</button>
+                </div>
+
+           </div>
+     </div>
+
+
+     </body>
+</html>
